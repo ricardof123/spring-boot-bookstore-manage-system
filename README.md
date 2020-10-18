@@ -1,5 +1,4 @@
 ## DEMO SpringBoot Bookstore Management System
-===================================
 
 Java implementation demo featuring:
 * Spring Boot;
