@@ -1,0 +1,42 @@
+server:
+  port: 7001
+
+# kafka integration is disabled now
+enable:
+  kafka:
+    feature: false
+
+# Netflix Eureka Client
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+
+# Netflix Feign Client
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: full
+
+# Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+# General Spring
+spring:
+
+# Kafka
+kafka:
+  topic:
+    book:
+      events: "book_events"
+  bootstrap:
+    servers: "localhost:9092"
+  properties:
+    schema:
+      registry:
+        url: "http://localhost:8081/"

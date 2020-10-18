@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a881a85e-db1e-46d7-86f2-d09ea6241a12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring-boot-library-manage-system" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iWTIEplAaEr2UFUVOTOjrzehJP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/BookstoreZuulServer/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/StockMicroservice/src/main" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BookMicroservice/src/main" />
+      <recent name="$PROJECT_DIR$/BookMicroservice/src/main/resources" />
+      <recent name="$PROJECT_DIR$/BookMicroservice/src/main/resources/migration/scripts" />
+      <recent name="$PROJECT_DIR$/BookMicroservice/src/main/resources/migration" />
+      <recent name="$PROJECT_DIR$/BookStockService/src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/StockMicroservice/src/main" />
+      <recent name="$PROJECT_DIR$/StockMicroservice/src/main/java/com/fukuda/bookstore/ms/stock" />
+      <recent name="$PROJECT_DIR$/BookstoreEureka/src/main/resources" />
+      <recent name="$PROJECT_DIR$/StockMicroservice/src/main/resources/migrations/environments" />
+      <recent name="$PROJECT_DIR$/BookMicroservice/src/main/avro" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fukuda.bookstore.configuration" />
+      <recent name="com.fukuda.bookstore.ms.book.mapper" />
+      <recent name="com.fukuda.bookstore.ms.book.dto" />
+      <recent name="com.fukuda.bookstore.ms.stock.dto" />
+      <recent name="com.fukuda.bookstore.ms.book.validator" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.fukuda.bookstore.ms.stock.controller" />
+      <recent name="com.fukuda.bookstore.ms.book.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.Run Stock">
+    <configuration name="Run Book" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="-Dspring-boot.run.fork=false" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/BookMicroservice" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/BookMicroservice/pom.xml" goal="avro:schema" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <configuration name="Run Eureka" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="-Dspring-boot.run.fork=false" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/BookstoreEureka" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Run Stock" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="-Dspring-boot.run.fork=false" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/StockMicroservice" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/StockMicroservice/pom.xml" goal="avro:schema" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="compile package install" />
+      </method>
+    </configuration>
+    <configuration name="Run Zuul" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="-Dspring-boot.run.fork=false" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/BookstoreZuulServer" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/BookstoreZuulServer/pom.xml" goal="clean" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.Run Book" />
+      <item itemvalue="Maven.Run Stock" />
+      <item itemvalue="Maven.Run Eureka" />
+      <item itemvalue="Maven.Run Zuul" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a881a85e-db1e-46d7-86f2-d09ea6241a12" name="Default Changelist" comment="" />
+      <created>1602022266808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602022266808</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="setup.txt" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="743" y="333" width="424" height="382" key="#BuildArtifactsBeforeRunChooser" timestamp="1602288472910">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="743" y="333" width="424" height="382" key="#BuildArtifactsBeforeRunChooser/0.0.1920.1053@0.0.1920.1053" timestamp="1602288472910" />
+    <state x="173" y="230" width="1361" height="675" key="#Project_Structure" timestamp="1602454154144">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="173" y="230" width="1361" height="675" key="#Project_Structure/0.0.1920.1053@0.0.1920.1053" timestamp="1602454154144" />
+    <state x="521" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602509156933">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="521" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1602509156933" />
+    <state x="718" y="331" width="513" height="387" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602542593190">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="718" y="331" width="513" height="387" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1053@0.0.1920.1053" timestamp="1602542593190" />
+    <state x="768" y="212" width="374" height="624" key="#com.intellij.ide.util.MemberChooser" timestamp="1602517842387">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="768" y="212" width="374" height="624" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1053@0.0.1920.1053" timestamp="1602517842387" />
+    <state x="693" y="304" width="524" height="441" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1602120553529">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="693" y="304" width="524" height="441" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1602120553529" />
+    <state x="462" y="453" width="1043" height="144" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602449251537">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="462" y="453" width="1043" height="144" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1602449251537" />
+    <state x="740" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1602120554830">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="740" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1053@0.0.1920.1053" timestamp="1602120554830" />
+    <state x="430" y="0" width="1049" height="1051" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602521293023">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="430" y="0" width="1049" height="1051" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1602521293023" />
+    <state x="693" y="275" width="524" height="499" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602364315250">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="693" y="275" width="524" height="499" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1602364315250" />
+    <state x="636" y="311" width="424" height="510" key="FileChooserDialogImpl" timestamp="1602287634251">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="636" y="311" width="424" height="510" key="FileChooserDialogImpl/0.0.1920.1053@0.0.1920.1053" timestamp="1602287634251" />
+    <state width="1874" height="247" key="GridCell.Tab.0.bottom" timestamp="1602550829590">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1053@0.0.1920.1053" timestamp="1602550829590" />
+    <state width="1874" height="247" key="GridCell.Tab.0.center" timestamp="1602550829589">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="247" key="GridCell.Tab.0.center/0.0.1920.1053@0.0.1920.1053" timestamp="1602550829589" />
+    <state width="1874" height="247" key="GridCell.Tab.0.left" timestamp="1602550829589">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="247" key="GridCell.Tab.0.left/0.0.1920.1053@0.0.1920.1053" timestamp="1602550829589" />
+    <state width="1874" height="247" key="GridCell.Tab.0.right" timestamp="1602550829589">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="247" key="GridCell.Tab.0.right/0.0.1920.1053@0.0.1920.1053" timestamp="1602550829589" />
+    <state width="1874" height="334" key="GridCell.Tab.1.bottom" timestamp="1602532739984">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="334" key="GridCell.Tab.1.bottom/0.0.1920.1053@0.0.1920.1053" timestamp="1602532739984" />
+    <state width="1874" height="334" key="GridCell.Tab.1.center" timestamp="1602532739984">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="334" key="GridCell.Tab.1.center/0.0.1920.1053@0.0.1920.1053" timestamp="1602532739984" />
+    <state width="1874" height="334" key="GridCell.Tab.1.left" timestamp="1602532739984">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="334" key="GridCell.Tab.1.left/0.0.1920.1053@0.0.1920.1053" timestamp="1602532739984" />
+    <state width="1874" height="334" key="GridCell.Tab.1.right" timestamp="1602532739984">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="334" key="GridCell.Tab.1.right/0.0.1920.1053@0.0.1920.1053" timestamp="1602532739984" />
+    <state x="493" y="183" width="924" height="682" key="Maven.ArtifactSearchDialog" timestamp="1602361140543">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="493" y="183" width="924" height="682" key="Maven.ArtifactSearchDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1602361140543" />
+    <state x="464" y="160" width="1024" height="843" key="SettingsEditor" timestamp="1602287713305">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="464" y="160" width="1024" height="843" key="SettingsEditor/0.0.1920.1053@0.0.1920.1053" timestamp="1602287713305" />
+    <state x="768" y="306" width="374" height="437" key="chooseDestDirectoryDialog" timestamp="1602454211773">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="768" y="306" width="374" height="437" key="chooseDestDirectoryDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1602454211773" />
+    <state x="610" y="143" width="690" height="762" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602514871710">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="610" y="143" width="690" height="762" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1053@0.0.1920.1053" timestamp="1602514871710" />
+    <state x="646" y="260" width="1123" height="530" key="find.popup" timestamp="1602506725850">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="646" y="260" width="1123" height="530" key="find.popup/0.0.1920.1053@0.0.1920.1053" timestamp="1602506725850" />
+    <state x="606" y="223" width="698" height="602" key="new project wizard" timestamp="1602454049156">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="606" y="223" width="698" height="602" key="new project wizard/0.0.1920.1053@0.0.1920.1053" timestamp="1602454049156" />
+    <state x="802" y="187" width="800" height="675" key="scopes" timestamp="1602387238013">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="802" y="187" width="800" height="675" key="scopes/0.0.1920.1053@0.0.1920.1053" timestamp="1602387238013" />
+    <state x="287" y="231" width="1008" height="678" key="search.everywhere.popup" timestamp="1602515012112">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="287" y="231" width="1008" height="678" key="search.everywhere.popup/0.0.1920.1053@0.0.1920.1053" timestamp="1602515012112" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-migrations/3.3.7/mybatis-migrations-3.3.7-sources.jar!/org/apache/ibatis/migration/operations/UpOperation.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.2.0.RELEASE/spring-cloud-netflix-zuul-2.2.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/FiltersEndpoint.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

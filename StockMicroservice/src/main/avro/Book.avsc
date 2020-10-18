@@ -1,0 +1,16 @@
+{
+  "namespace": "com.fukuda.bookstore.avro",
+  "type": "record",
+  "name": "Book",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "avro.java.string": "String"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+server:
+  port: 8080
+
+# actuator config to expose useful endpoints
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+# Ribbon Service discovery
+ribbon:
+  eureka:
+    enabled: true # to allow service discovery with eureka
+
+# Netflix logging
+logging:
+  level:
+    com:
+      netflix: DEBUG
+
+# Netflix Zuul reverse proxy config
+zuul:
+  routes:
+    bookmicroservice:
+      stripPrefix: true
+      path: /bookmicroservice/**
+      serviceId: bookmicroservice
+  stockmicroservice:
+    stripPrefix: true
+    path: /stockmicroservice/**
+    serviceId: stockmicroservice

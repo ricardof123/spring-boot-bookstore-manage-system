@@ -1,0 +1,5 @@
+BookMicroservice/target/*
+BookstoreBaseLibrary/target/*
+StockMicroservice/target/*
+BookstoreEureka/target/*
+BookstoreZuulServer/target/*

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="BookMicroservice" />
+        <module name="BookstoreEurekaServer" />
+        <module name="BookstoreBaseLibrary" />
+        <module name="StockMicroservice" />
+        <module name="BookstoreZuulServer" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BookMicroservice" options="-parameters" />
+      <module name="BookstoreBaseLibrary" options="-parameters" />
+      <module name="BookstoreEurekaServer" options="-parameters" />
+      <module name="BookstoreZuulServer" options="-parameters" />
+      <module name="StockMicroservice" options="-parameters" />
+      <module name="spring-boot-bookstore-system" options="-parameters" />
+    </option>
+  </component>
+</project>
